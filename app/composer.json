@@ -1,0 +1,5 @@
+{
+    "require": {
+        "mikehaertl/php-pdftk": "^0.10.0"
+    }
+}

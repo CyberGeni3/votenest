@@ -1,0 +1,2 @@
+*.js linguist-detectable=false
+public/plugins/* linguist-vendored
