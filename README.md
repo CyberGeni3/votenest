@@ -26,14 +26,15 @@ Clone the repository first and then perform the steps below.
 - Visual Studio 2017 and up
 - CMake
 - Python 3.7 and up
-- Dlib
+- Dlib\
+
 Please refer to [@masoudr's Windows 10 installation guide (dlib + face_recognition)](https://github.com/ageitgey/face_recognition/issues/175#issue-257710508).
 
 6. After installing python dependencies, open cmd from desktop and run the script:
 ```bash
   python -m pip install face_recognition
 ```
-7. If you are having an issue about populating pdf forms, it is most likely that your pdf is damaged or corrupted. To fix this, go to the directory where your email is stored, open cmd and run:
+7. If you are having an issue about populating pdf forms, it is most likely that your pdf is damaged or corrupted. To fix this, go to the directory where your pdf is stored, open cmd and run:
 ```bash
   pdftk raw.pdf output fixed.pdf
 ```
